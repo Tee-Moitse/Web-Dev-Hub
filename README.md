@@ -12,7 +12,7 @@ This repository aims to build and showcase various web development projects, inc
 1. **Fork this repository**.
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/your-username/web-dev-showcase.git
+   git clone https://github.com/HarshSharmaIN/Web-Dev-Hub.git
    ```
 3. **Create a new branch**:
    ```bash
