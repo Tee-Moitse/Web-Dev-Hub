@@ -8,7 +8,7 @@ Thank you for your interest in contributing to our project! We are excited to co
 1. **Fork the repository**: Click on the "Fork" button at the top right of this repository's page to create your own copy of the project.
 2. **Clone your fork**:
    ```bash
-   git clone [https://github.com/HarshSharmaIN/Web-Dev-Hub.git](https://github.com/HarshSharmaIN/Web-Dev-Hub.git)
+   git clone https://github.com/HarshSharmaIN/Web-Dev-Hub.git
    cd Web-Dev-Hub
    ```
 3. **Create a new branch**:
