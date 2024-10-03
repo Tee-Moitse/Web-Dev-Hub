@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock , Paper & Scissors</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Rock , Paper & Scissors</h1>
+    </header>
+
+    <div class="scoreBoard">
+      <div class="badge" id="user">user</div>
+      <div class="badge" id="comp">comp</div>
+      <span class="score" id="userScore">0</span> 
+      <span class="colon">:</span>
+      <span class="score" id="compScore">0</span>
+    </div>
+
+    <div class="actionMessage" id="actionMessage">Start the Game!</div>
+
+    <div class="buttonContainer">
+      <div class="button" id="r" onclick="getBtnClk(this.id)">
+        <img src="./Assets/rock.jpg" alt="Rock" />
+      </div>
+
+      <div class="button" id="p" onclick="getBtnClk(this.id)">
+        <img src="./Assets/paper.jpg" alt="Paper" />
+      </div>
+
+      <div class="button" id="s" onclick="getBtnClk(this.id)">
+        <img src="./Assets/scissors.jpg" alt="Scissors" />
+      </div>
+    </div>
+
+    <p>Make your move.</p>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
