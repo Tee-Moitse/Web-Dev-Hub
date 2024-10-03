@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    height: 100vh;
+    width: 100vw;
+    filter:blur(5px);
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.netflix{
+    position: absolute;
+    top: 4vh;
+    left: 8vw;
+    color: red;
+    font-size: 40px;
+}
+#select{
+    position: absolute;
+    top: 9vh;
+    left: 70vw;
+    height: 5vh;
+    width: 10vw;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 5px solid black;
+    border-radius: 10px;
+    border-style: none;
+}
+#signin{
+    position: absolute;
+    top: 9vh;
+    left: 85vw;
+    height: 5vh;
+    width: 7vw;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    border: 5px solid red;
+    border-radius: 10px;
+    border-style: none;
+     transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.01s;
+}
+#signin:hover{
+    font-weight: 800;
+}
+.intro{
+    color: whitesmoke;
+    position: absolute;
+    top: 40vh;
+    left: 20vw;
+    color:yellow;
+}
+#one{
+    font-size: 60px;
+    font-weight: 700;
+}
+#two{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 12vw;
+}
+#three{
+    font-size: 25px;
+    margin-top: 5vh;
+    margin-left: 8vw;
+}
+.thagna{
+    position: absolute;
+    top: 80vh;
+    left: 28vw;
+}
+.email{
+    height: 7vh;
+    width: 30vw;
+    border: 5px solid white;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: wheat;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+}
+.email:hover{
+    background-color: yellow;
+}
+.getstarted{
+    font-size: 15px;
+    font-weight: 600;
+    height: 7vh;
+    width: 10vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    background-color: red;
+     transition-property: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+}
+.getstarted:hover{
+    font-weight: 900;
+}
+#add1{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+.tv{
+    font-size: 30px;
+    width: 40vw;
+    height: 30vh;
+    color: white;
+}
+.tvimg{
+    height: 40vh;
+    width: 35vw;
+}
+hr{
+    border: 5px solid grey;
+}
+#add2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+}
+.downloadimg{
+    height: 45vh;
+    width: 35vw;
+}
+.download{
+    font-size: 30px;
+    height: 20vh;
+    width: 50vw;
+    color: white;
+}
+#add3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+}
+.everywhere{
+    font-size: 30px;
+    height: 20vh;
+    width: 40vw;
+    color: white;
+}
+.everywhereimg{
+    height: 35vh;
+    width: 25vw;
+}
+#add4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 70vh;
+    width: 100vw;
+}
+.profileimg{
+    height: 40vh;
+    width: 30vw;
+}
+.profile{
+    font-size: 30px;
+    height: 20vh;
+    width: 50vw;
+    color: white;
+}

@@ -1,0 +1,90 @@
+@media only screen and (max-width:950px){
+    .netflix{
+        margin-left: 15vw;
+    }
+    #select{
+        width: 20vw;
+        position: absolute;
+        top: 18vh;
+        left: 40vw;
+    }
+    #signin{
+        width: 20vw;
+        position: absolute;
+        top: 25vh;
+        left: 40vw;
+    }
+    .intro{
+        left: 2vw;
+        height: 80vh;
+    }
+    #one{
+        width: 85vw;
+    }
+    #two{
+        width: 85vw;
+    }
+    #three{
+        width: 85vw;
+    }
+    #background{
+        height: 150vh;
+    }
+    .thagna{
+       position: absolute;
+       top: 120vh;
+       left: 20vw;
+    }
+    .email{
+        width: 40vw;
+        height: 10vh;
+    }
+    .getstarted{
+        width: 20vw;
+        height: 10vh;
+    }
+    #add1{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+        justify-content:start;
+    }
+    .tvimg{
+        margin-top: 50vh;
+    }
+    .tv{
+        width: 90vw;
+    }
+    #add2{
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        height: 130vh;
+        align-items: center;
+    }
+    .download{
+        width: 90vw;
+    }
+    #add3{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+        justify-content:start;
+        align-items: center;
+    }
+    .everywhereimg{
+        margin-top: 50vh;
+    }
+    .everywhere{
+        width: 90vw;
+    }
+    #add4{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+        justify-content:start;
+    }
+    .profile{
+        width: 90vw;
+    }
+}
