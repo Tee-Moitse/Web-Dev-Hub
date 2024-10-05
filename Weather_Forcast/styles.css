@@ -1,0 +1,164 @@
+/* Global Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(25, 25, 25, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #00ffab;
+  font-size: 2.5em;
+  text-shadow: 0 0 12px rgba(0, 255, 171, 0.8);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 14px;
+  border: 2px solid #00ffab;
+  border-radius: 8px;
+  width: 70%;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1.1em;
+  transition: all 0.3s;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+input:focus {
+  border-color: #00ffab;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 255, 171, 0.8);
+}
+
+button {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #00ffab, #00e68a);
+  color: black;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 255, 171, 0.4);
+}
+
+button:hover {
+  background-color: #00ff80;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 255, 171, 0.6);
+}
+
+.weather-info {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(40, 40, 40, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 255, 171, 0.2);
+  opacity: 0;
+  animation: slideUp 1s forwards;
+  display: none;
+}
+
+.weather-info h2 {
+  margin-bottom: 15px;
+  font-size: 2em;
+  color: #00ffab;
+  text-shadow: 0 0 8px rgba(0, 255, 171, 0.8);
+}
+
+.weather-info img {
+  margin: 10px 0;
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 171, 0.5));
+}
+
+.weather-info p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.additional-info {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #bbb;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  input {
+    width: 60%;
+  }
+
+  button {
+    padding: 12px 20px;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
