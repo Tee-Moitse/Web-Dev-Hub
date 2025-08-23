@@ -186,3 +186,12 @@ hr{
     width: 50vw;
     color: white;
 }
+
+#add5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #db1c1c;
+    height: 70vh;
+    width: 100vw;
+}
