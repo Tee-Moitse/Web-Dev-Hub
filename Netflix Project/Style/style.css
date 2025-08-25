@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 #background{
     background-image: url("../Assets/backgroundimage.jpg");
     filter: brightness(10%);
@@ -13,13 +15,17 @@
     left: 0px;
 
 }
+
+
 .netflix{
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 9%;
+    left: 6%;
     color: rgb(213, 28, 28);
-    font-size: 65px;
+    font-size: 55px;
 }
+
+
 #select{
     position: absolute;
     /* top: 9vh; */
@@ -35,6 +41,8 @@
     border-style: none;
     padding-left: 20px;
 }
+
+
 #signin{
     position: absolute;
     top: 9vh;
@@ -66,33 +74,40 @@
     top: 40vh;
     left: 20vw;
     color:#ffffff;
+    margin-bottom: 67px;
 }
 
 
 #one{
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 700;
-}
-
-
-#two{
-    font-size: 40px;
-    font-weight: 500;
-    margin-left: 12vw;
-}
-
-
-#three{
-    font-size: 25px;
-    margin-top: 5vh;
     margin-left: 8vw;
 }
 
 
-.thagna{
+#two {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 18vw;
+}
+
+#price {
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 24vw;
+}
+
+#three{
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-left: 14vw;
+}
+
+
+.email-box{
     position: absolute;
     top: 80vh;
-    left: 28vw;
+    left: 32vw;
     
 }
 
@@ -248,3 +263,4 @@ hr{
     height: 70vh;
     width: 100vw;
 }
+
