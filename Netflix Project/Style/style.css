@@ -104,12 +104,12 @@
     border-style: none;
     color: white;
     background-color: red;
-     transition-property: all;
+    transition-property: all;
     transition-duration: 0.2s;
     transition-delay: 0.01s;
 }
 .getstarted:hover{
-    font-weight: 900;
+    font-weight: 700;
 }
 #add1{
     display: flex;
