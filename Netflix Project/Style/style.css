@@ -52,10 +52,14 @@
     transition-duration: 0.1s;
     transition-delay: 0.01s;
 }
+
+
 #signin:hover{
     font-weight: 800;
     background-color: #bd0909;
 }
+
+
 .intro{
     color: whitesmoke;
     position: absolute;
@@ -63,26 +67,36 @@
     left: 20vw;
     color:#ffffff;
 }
+
+
 #one{
     font-size: 60px;
     font-weight: 700;
 }
+
+
 #two{
     font-size: 40px;
     font-weight: 500;
     margin-left: 12vw;
 }
+
+
 #three{
     font-size: 25px;
     margin-top: 5vh;
     margin-left: 8vw;
 }
+
+
 .thagna{
     position: absolute;
     top: 80vh;
     left: 28vw;
     
 }
+
+
 .email{
     height: 7vh;
     width: 30vw;
@@ -97,6 +111,8 @@
     transition-duration: 0.2s;
     transition-delay: 0.01s;
 }
+
+
 .email:hover{
     background-color: #ffffff;
 }
@@ -116,10 +132,14 @@
     transition-duration: 0.2s;
     transition-delay: 0.01s;
 }
+
+
 .getstarted:hover{
     font-weight: 700;
     background: #bd0909;
 }
+
+
 #add1{
     display: flex;
     background-color: black;
@@ -128,19 +148,27 @@
     height: 70vh;
     width: 100vw;
 }
+
+
 .tv{
     font-size: 30px;
     width: 40vw;
     height: 30vh;
     color: white;
 }
+
+
 .tvimg{
     height: 40vh;
     width: 35vw;
 }
+
+
 hr{
     border: 5px solid grey;
 }
+
+
 #add2{
     display: flex;
     justify-content: space-evenly;
@@ -149,16 +177,22 @@ hr{
     height: 70vh;
     width: 100vw;
 }
+
+
 .downloadimg{
     height: 45vh;
     width: 35vw;
 }
+
+
 .download{
     font-size: 30px;
     height: 20vh;
     width: 50vw;
     color: white;
 }
+
+
 #add3{
     display: flex;
     justify-content:space-evenly;
@@ -167,16 +201,22 @@ hr{
     height: 70vh;
     width: 100vw;
 }
+
+
 .everywhere{
     font-size: 30px;
     height: 20vh;
     width: 40vw;
     color: white;
 }
+
+
 .everywhereimg{
     height: 35vh;
     width: 25vw;
 }
+
+
 #add4{
     display: flex;
     justify-content: space-evenly;
@@ -185,10 +225,14 @@ hr{
     height: 70vh;
     width: 100vw;
 }
+
+
 .profileimg{
     height: 40vh;
     width: 30vw;
 }
+
+
 .profile{
     font-size: 30px;
     height: 20vh;
