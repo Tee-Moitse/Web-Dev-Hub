@@ -22,10 +22,10 @@
 }
 #select{
     position: absolute;
-    top: 9vh;
-    left: 70vw;
+    /* top: 9vh; */
+    left: 80vw;
     height: 5vh;
-    width: 10vw;
+    width: 7vw;
     background-color: black;
     color: white;
     font-size: 20px;
@@ -33,6 +33,7 @@
     border: 5px solid black;
     border-radius: 10px;
     border-style: none;
+    padding-left: 20px;
 }
 #signin{
     position: absolute;
