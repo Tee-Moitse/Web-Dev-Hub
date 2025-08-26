@@ -47,10 +47,10 @@
     top: 9vh;
     left: 85vw;
     height: 5vh;
-    width: 7vw;
+    width: 4vw;
     color: white;
-    background-color: #db1c1c;
-    font-size: 20px;
+    background-color: red;
+    font-size: 14px;
     font-weight: 600;
     border: 5px solid red;
     border-radius: 10px;
@@ -107,20 +107,25 @@
     position: absolute;
     top: 65vh;
     left: 32vw;
+    color: white;
     
 }
 
+input::placeholder{
+    color: rgb(158, 146, 146);
+}
 
 .email{
-    height: 7vh;
-    width: 30vw;
-    border: 5px solid white;
+    height: 6vh;
+    width: 29vw;
+    border: 2px solid black;
     border-radius: 10px;
-    border-style: none;
+    border-style: groove;
     font-size: 20px;
     font-weight: 400;
     padding-left: 10px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background: transparent;
     transition-property: all;
     transition-duration: 0.2s;
     transition-delay: 0.01s;
@@ -128,11 +133,13 @@
 
 
 .email:hover{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background: transparent;
 }
 
 
 .getstarted{
+    margin-left: 4px;
     font-size: 22px;
     font-weight: 600;
     height: 7vh;
@@ -150,7 +157,7 @@
 
 .getstarted:hover{
     font-weight: 700;
-    background: #bd0909;
+    background: #d10e0e;
 }
 
 
