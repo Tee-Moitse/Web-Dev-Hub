@@ -44,8 +44,8 @@
 
 #signin{
     position: absolute;
-    top: 9vh;
-    left: 85vw;
+    top: 12vh;
+    left: 90vw;
     height: 5vh;
     width: 4vw;
     color: white;
@@ -112,7 +112,7 @@
 }
 
 input::placeholder{
-    color: rgb(158, 146, 146);
+    color: #9e9292;
 }
 
 .email{
@@ -124,7 +124,6 @@ input::placeholder{
     font-size: 20px;
     font-weight: 400;
     padding-left: 10px;
-    /* background-color: #ffffff; */
     background: transparent;
     transition-property: all;
     transition-duration: 0.2s;
@@ -133,7 +132,6 @@ input::placeholder{
 
 
 .email:hover{
-    /* background-color: #ffffff; */
     background: transparent;
 }
 
@@ -142,8 +140,8 @@ input::placeholder{
     margin-left: 4px;
     font-size: 22px;
     font-weight: 600;
-    height: 7vh;
-    width: 10vw;
+    height: 6vh;
+    width: 11vw;
     border: 2px solid black;
     border-radius: 8px;
     border-style: none;
