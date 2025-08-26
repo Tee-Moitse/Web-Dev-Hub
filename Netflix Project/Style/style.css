@@ -121,6 +121,7 @@ input::placeholder{
     height: 6vh;
     width: 29vw;
     border: 2px solid black;
+    color: white;
     border-radius: 10px;
     border-style: groove;
     font-size: 20px;
